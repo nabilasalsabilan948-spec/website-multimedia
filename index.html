@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/rekap.css">
+</head>
+<body>
+    <div>
+        <h1 id="iyaa">🐦 ⋆ 🐷  🎀  𝓋𝒾𝒹𝒾🌸 𝓂𝒶𝓈𝒶𝓀  🎀  🐷 ⋆ 🐦</h1>
+        <video controls width="400px" id="vidioAnak">
+            <source type="Video/mp4" src="media/Praktis & Lembut! Resep TELUR SAUS TIRAM [Favorit Anak] - Devina Hermawan (360p, h264).mp4">
+        </video>
+        <br> <br>
+        <audio controls>
+            <source src="media/NIKI - You'll be in my heart (Spotify Single)  Music Lyric Video - Muse-X Official.mp3" type="audio/mpeg">
+        </audio>
+        <br> <br>
+        <button onclick="playPause()">Play / Pause</button>
+        <button onclick="zoom()">Zoom</button>
+        <br>
+        <button onclick="normal()">Normal</button>
+        <button onclick="kecil()">Kecil</button>
+    </div>
+    <script>
+        var vidio2 = document.getElementById("vidioAnak");
+
+        function playPause(){
+            if (vidio2.paused){
+                vidio2.play();
+            } else {
+                vidio2.pause();
+            }   
+        }
+
+        function zoom(){
+            vidio2.width = 600;
+        }
+
+        function normal(){
+            vidio2.width = 400;
+        }
+        function kecil(){
+            vidio2.width = 200;
+        }
+
+    </script>
+</body>
+</html>

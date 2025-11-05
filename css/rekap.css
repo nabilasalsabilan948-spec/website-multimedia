@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(255, 204, 244);
+  font-family: "Bungee", sans-serif;
+  padding: 20px;
+  text-align: center;
+  color: #3c0213;
+}
+div {
+  background: url(https://i.pinimg.com/736x/c4/d5/13/c4d513166ef63c665672b0cf76396e89.jpg);
+  padding: 20px;
+  width: 60%;
+  margin: 20px auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgb(178, 158, 158);
+  /*
+        0 = offset horizontal
+        4 = offset vertical
+        10 - blur radius
+        rgba( 0 0 0) = color
+        */
+}
+#iyaa{
+    text-align: center;
+}
+#vidioAnak{
+    border-radius: 15px;
+}
+button {
+  background-color: black;
+  color: pink;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 8px;
+  transition: all 0.3s ease;
+}
+button:hover {
+  background-color: #f2a1df;
+  color: rgb(225, 62, 136);
+  transform: matrix(1, 0.5, -0.5, 1, 30, 10);
+}
